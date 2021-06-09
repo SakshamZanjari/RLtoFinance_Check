@@ -1,18 +1,5 @@
-#include<simplecpp>
-#include<iomanip>
-
-main_program{
-int n,i=0;
-cin>>n;
-float cos,nu=0,a=0,b=0;
-repeat(n){
-i++;
-float a_i,b_i;
-cin>>a_i>>b_i;
-nu=nu+a_i*b_i;
-a=a+a_i*a_i;
-b=b+ b_i*b_i;
-}
-cos=nu/(sqrt(a)*sqrt(b));
-cout<<fixed<<setprecision(2)<<cos;
-}
+Till now, we have completed the following things:
+1. We started with learning how to use Github
+2. We learned Python and its various libraries like numpy, pandas, matplotlib etc.
+3. We then started learning the mathematics part like Probability and linear Algebra.
+4. We have now started learning how to use ML algorithms that is where we are facing the difficulties.
